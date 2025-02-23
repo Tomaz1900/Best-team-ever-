@@ -1,1 +1,1 @@
-// Sveiki, kolegos   s
+// Sveiki, kolegos   sveiki, kolegos
