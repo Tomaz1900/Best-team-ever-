@@ -179,3 +179,6 @@ document.getElementById("search-button").addEventListener("click", function () {
     document.getElementById("book-section").style.display = "none"; // Paslepia knygų sekciją
   }
 });
+document.getElementById("comment-button").addEventListener("click", function () {
+  window.location.href = "comments.html"; 
+});
