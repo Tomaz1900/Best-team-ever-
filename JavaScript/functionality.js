@@ -62,14 +62,14 @@ const booksData = {
       image: "https://via.placeholder.com/100",
     },
   ],
-  peizija: [
+  poezija: [
     {
-      title: "Peizija A",
+      title: "Poezija A",
       description: "Aprašymas apie Peiziją A",
       image: "https://via.placeholder.com/100",
     },
     {
-      title: "Peizija B",
+      title: "Poezija B",
       description: "Aprašymas apie Peiziją B",
       image: "https://via.placeholder.com/100",
     },
@@ -179,6 +179,8 @@ document.getElementById("search-button").addEventListener("click", function () {
     document.getElementById("book-section").style.display = "none"; // Paslepia knygų sekciją
   }
 });
-document.getElementById("comment-button").addEventListener("click", function () {
-  window.location.href = "comments.html"; 
-});
+document
+  .getElementById("comment-button")
+  .addEventListener("click", function () {
+    window.location.href = "comments.html";
+  });
